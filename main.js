@@ -58,7 +58,7 @@ function main(){
                     hundleBullet(bullet)
                     // countdown
                     clearInterval(timer)
-                    countDown(7, TanswerFc)
+                    countDown(30, TanswerFc)
                 }else{
                     window.alert("Please choose an answer")
                 }
