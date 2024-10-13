@@ -6,7 +6,7 @@ body{
     margin: 0;
     height: 100vh;
     display: flex;
-    background-image: linear-gradient(165deg,#d3e6ff,#00479e);
+    background-image: linear-gradient(328deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 25%, rgba(226, 226, 226, 0.05) 25%, rgba(226, 226, 226, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%, rgba(216, 216, 216, 0.05) 75%, rgba(216, 216, 216, 0.05) 100%), linear-gradient(172deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 25%, rgba(108, 108, 108, 0.05) 25%, rgba(108, 108, 108, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%, rgba(236, 236, 236, 0.05) 75%, rgba(236, 236, 236, 0.05) 100%), linear-gradient(207deg, rgba(153, 153, 153, 0.05) 0%, rgba(153, 153, 153, 0.05) 25%, rgba(83, 83, 83, 0.05) 25%, rgba(83, 83, 83, 0.05) 50%, rgba(5, 5, 5, 0.05) 50%, rgba(5, 5, 5, 0.05) 75%, rgba(82, 82, 82, 0.05) 75%, rgba(82, 82, 82, 0.05) 100%), linear-gradient(297deg, rgba(26, 26, 26, 0.05) 0%, rgba(26, 26, 26, 0.05) 25%, rgba(223, 223, 223, 0.05) 25%, rgba(223, 223, 223, 0.05) 50%, rgba(232, 232, 232, 0.05) 50%, rgba(232, 232, 232, 0.05) 75%, rgba(153, 153, 153, 0.05) 75%, rgba(153, 153, 153, 0.05) 100%), linear-gradient(204deg, rgba(120, 120, 120, 0.05) 0%, rgba(120, 120, 120, 0.05) 25%, rgba(191, 191, 191, 0.05) 25%, rgba(191, 191, 191, 0.05) 50%, rgba(246, 246, 246, 0.05) 50%, rgba(246, 246, 246, 0.05) 75%, rgba(123, 123, 123, 0.05) 75%, rgba(123, 123, 123, 0.05) 100%), linear-gradient(90deg, rgb(4, 16, 87), rgb(21, 69, 155));
 }
 .Quiz-app{
     width: 700px;
@@ -18,7 +18,7 @@ body{
 .Quiz-info{
     display: flex;
     justify-content: space-between;
-    background-color: #0075ff;
+    background-color: #234382;
     color: white;
     padding: 15px;
     border-radius: 5px;
@@ -27,7 +27,7 @@ input[type="Radio"]{
     width: 15px;
 }
 input[type="Radio"]:checked+label{
-    color: #0075ff;
+    color: #234382;
 }
 .answer{
     display: flex;
@@ -48,7 +48,7 @@ input[type="Radio"]:checked+label{
 .submit{
     border: none;
     outline: none;
-    background-color: #0075ff;
+    background-color: #234382;
     color: white;
     display: block;
     width: 100%;
@@ -72,7 +72,7 @@ input[type="Radio"]:checked+label{
     background-color: white;
 }
 .bullets span.on{
-    background-color: #0075ff;
+    background-color: #234382;
     border: none;
 }
 .footer{
@@ -98,5 +98,5 @@ input[type="Radio"]:checked+label{
     color: #009688;
 }
 .Quiz-app .result span.perfect {
-    color: #0075ff;
+    color: #234382;
 }
